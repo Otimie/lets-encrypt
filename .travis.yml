@@ -12,5 +12,4 @@ deploy:
     secure: dELLqAqcXffe3hd1okBpK8c7pFFAGZk9oAVtbDDgtjLD9ka7V0cWPsMSlhBuURy0zbILAPIeDfAMAvzK9v4CBTh6+MEc4mNvWzKiKWzQaF5AXJOSsBl3kn3zJQVn6GGQzN5TvpZiykwV5HgZXAjbHIJDWC4Ye2QTKuIbbuGVzX3s5i9lhuB3PlsYTUzD46Vk9YS5+LhqJJ5pjoVEHFOTu6Me6KpVYkgU/QlpUFAYjNncXigdmqdjdvKXqypnMaRaPFA6qDpr9gOj0u/JIO2zpIq8Ar5GIb70LdBNG7sVU67IP9kOoMPD0kEz0uFBlIEvWj7I/Q134qoPeV9vUburyN453R2zxa0DCJ8tliUVH4jZbXCLQpiL+IRwQCcyCrSnCx9osPj/hLjJbbKTvblqEXU5+qSqDEM82KfR1dud0YpoOnCFwDyYfD+auD+ORu+l05TOV+I+Q4ud183wLOcKQxz4dmD0wcqLc+o1scAn84tZcjkp5sQkSyPCTSX33LLPdDrykQt02GVDFgYA7vdxrFGfMDQl1TAYYd+zWzyQKauVBRuuIwFyT7n72R2bFJQw67RpbPTBkD+jxPEVvwW+af+MrvrPVPPLmme/XMX2FxSn+vTAMtvkOOZsBb1n9Df1gRjZ4MeeUDvl29OLnNofceF7VfQiXeEdmBfYyA4sKzM=
   bucket: ssl-tls-certificate
   local-dir: "/tmp/config-dir/live/lachlanb.me/"
-  on:
-    repo: Otimie/lets-encrypt
+  skip_cleanup: true
