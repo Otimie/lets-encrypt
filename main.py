@@ -9,6 +9,7 @@ def handler(event, context):
         '--dns-cloudflare',                     # Use dns challenge with cloudflare
         '--dns-cloudflare-credentials', 'cloudflare.ini',
         '-d', 'lachlanb.me',                    # Domains to provision certs for
+        '-d', '*.lachlanb.me',                    # Domains to provision certs for
         # Override directory paths so script doesn't have to be run as root
         '--config-dir', '/tmp/config-dir/',
         '--work-dir', '/tmp/work-dir/',
