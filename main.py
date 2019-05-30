@@ -7,7 +7,7 @@ def handler(event, context):
         '--agree-tos',                          # Agree to the terms of service,
         '--email', 'jhneibghbw@lachlanb.me',       # Email
         '--dns-cloudflare',                     # Use dns challenge with cloudflare
-        '--dns-cloudflare-credentials', 'cloudflare.ini'
+        '--dns-cloudflare-credentials', 'cloudflare.ini',
         '-d', 'lachlanb.me',                    # Domains to provision certs for
         # Override directory paths so script doesn't have to be run as root
         '--config-dir', '/tmp/config-dir/',
